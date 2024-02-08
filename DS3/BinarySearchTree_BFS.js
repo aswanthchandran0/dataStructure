@@ -104,14 +104,4 @@ class BinarySearchTree{
         }
     }
 }
-
-const bst = new BinarySearchTree()
-bst.insert(10)
-bst.insert(5)
-bst.insert(15)
-bst.insert(3)
-bst.insert(7)
-bst.levelOrder()
-
-console.log('min',bst.min(bst.root));
-console.log('max',bst.max(bst.root));
+                                

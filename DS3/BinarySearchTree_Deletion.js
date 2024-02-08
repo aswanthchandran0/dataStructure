@@ -66,7 +66,7 @@ class BinarySearchTree{
                 this.inOrder(root.right)
             }
         }
-        preOrder(root){
+        postOrder(root){
             if(root){
                 this.preOrder(root.left)
                 this.preOrder(root.right)
